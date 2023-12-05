@@ -1,0 +1,230 @@
+{
+    "permissions": [
+        {
+            "display_name": "Dashboard",
+            "name": "dashboard",
+            "description": "View dashboard",
+            "can_disabled": "0"
+        },
+        {
+            "display_name": "Profile view",
+            "name": "profile-view",
+            "description": "To show profile"
+        },
+        {
+            "display_name": "My profile update",
+            "name": "my-profile-update",
+            "description": "To update my profile"
+        },
+        {
+            "display_name": "Change password",
+            "name": "change-password",
+            "description": "To change password"
+        },
+        {
+            "display_name": "Role list",
+            "name": "role-list",
+            "description": "To show role list"
+        },
+        {
+            "display_name": "Role details",
+            "name": "role-details",
+            "description": "To show role details"
+        },
+        {
+            "display_name": "Role permission update",
+            "name": "role-permission-update",
+            "description": "To update Role permission"
+        },
+        {
+            "display_name": "User list",
+            "name": "user-list",
+            "description": "To show user list"
+        },
+        {
+            "display_name": "User details",
+            "name": "user-details",
+            "description": "To show user details"
+        },
+        {
+            "display_name": "User add",
+            "name": "user-add",
+            "description": "To add user"
+        },
+        {
+            "display_name": "User update",
+            "name": "user-update",
+            "description": "To update user"
+        },
+        {
+            "display_name": "User status update",
+            "name": "user-status-update",
+            "description": "To update user status"
+        },
+        {
+            "display_name": "User delete",
+            "name": "user-delete",
+            "description": "To delete user"
+        },
+        {
+            "display_name": "Project list",
+            "name": "project-list",
+            "description": "To show project list"
+        },
+        {
+            "display_name": "Holiday list",
+            "name": "holiday-list",
+            "description": "o show holiday list"
+        },
+        {
+            "display_name": "Holiday details",
+            "name": "holiday-details",
+            "description": "To show holiday details"
+        },
+        {
+            "display_name": "Holiday add",
+            "name": "holiday-add",
+            "description": "To add holiday"
+        },
+        {
+            "display_name": "Holiday update",
+            "name": "holiday-update",
+            "description": "To update holiday"
+        },
+        {
+            "display_name": "Holiday delete",
+            "name": "holiday-delete",
+            "description": "To delete holiday"
+        },
+        {
+            "display_name": "Profile list",
+            "name": "profile-list",
+            "description": "To show profile list"
+        },
+        {
+            "display_name": "Profile details",
+            "name": "profile-details",
+            "description": "To show profile details"
+        },
+        {
+            "display_name": "Profile add",
+            "name": "profile-add",
+            "description": "To add profile"
+        },
+        {
+            "display_name": "Profile update",
+            "name": "profile-update",
+            "description": "To update profile"
+        },
+        {
+            "display_name": "Profile delete",
+            "name": "profile-delete",
+            "description": "To delete profile"
+        },
+        {
+            "display_name": "My timesheet",
+            "name": "my-timesheet",
+            "description": "To show my timesheet"
+        },
+        {
+            "display_name": "My timesheet history",
+            "name": "my-timesheet-history",
+            "description": "To show my timesheet history"
+        },
+        {
+            "display_name": "My timesheet add/update",
+            "name": "my-timesheet-add-update",
+            "description": "To add and update my timesheet"
+        },
+        {
+            "display_name": "My timesheet send",
+            "name": "my-timesheet-send",
+            "description": "To send my timesheet"
+        },
+        {
+            "display_name": "My timesheet export",
+            "name": "my-timesheet-export",
+            "description": "To export my timesheet"
+        },
+        {
+            "display_name": "Manage timesheet",
+            "name": "manage-timesheet",
+            "description": "To manage timesheet of users"
+        },
+        {
+            "display_name": "Manage timesheet history",
+            "name": "manage-timesheet-history",
+            "description": "To manage timesheet history of users"
+        },
+        {
+            "display_name": "Manage timesheet add/update",
+            "name": "manage-timesheet-add-update",
+            "description": "To add and update timesheet of users"
+        },
+        {
+            "display_name": "Manage timesheet send",
+            "name": "manage-timesheet-send",
+            "description": "To send user's timesheet"
+        },
+        {
+            "display_name": "Manage timesheet export",
+            "name": "manage-timesheet-export",
+            "description": "To export user's timesheet"
+        }
+    ],
+    "roles": [
+        {
+            "display_name": "Super Admin",
+            "name": "super-admin",
+            "description": "Super admin role",
+            "permissions": [
+                "dashboard",
+                "profile-view",
+                "my-profile-update",
+                "change-password",
+                "role-list",
+                "role-details",
+                "role-permission-update",
+                "user-list",
+                "user-details",
+                "user-add",
+                "user-update",
+                "user-status-update",
+                "user-delete",
+                "project-list",
+                "holiday-list",
+                "holiday-details",
+                "holiday-add",
+                "holiday-update",
+                "holiday-delete",
+                "profile-list",
+                "profile-details",
+                "profile-add",
+                "profile-update",
+                "profile-delete",
+                "my-timesheet",
+                "my-timesheet-history",
+                "my-timesheet-add-update",
+                "my-timesheet-send",
+                "my-timesheet-export",
+                "manage-timesheet",
+                "manage-timesheet-history",
+                "manage-timesheet-add-update",
+                "manage-timesheet-send",
+                "manage-timesheet-export"
+            ]
+        },
+        {
+            "display_name": "Employee",
+            "name": "employee",
+            "description": "Employee role",
+            "permissions": ["dashboard", "profile-view"]
+        },
+        {
+            "display_name": "Hr Admin",
+            "name": "hr-admin",
+            "description": "Hr Admin role",
+            "permissions": ["dashboard", "profile-view"]
+        }
+    ]
+}

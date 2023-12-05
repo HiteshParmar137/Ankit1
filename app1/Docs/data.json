@@ -1,0 +1,49 @@
+{
+    "holidays": [
+        {
+            "name": "New Years Day (Observed)",
+            "date": "2023-02-01",
+            "description": ""
+        },
+        {
+            "name": "Martin Luther King Jr. Day",
+            "date": "2023-01-16",
+            "description": ""
+        },
+        {
+            "name": "Presidents' Day",
+            "date": "2023-02-20",
+            "description": ""
+        },
+        {
+            "name": "Memorial Day",
+            "date": "2023-05-29",
+            "description": ""
+        },
+        {
+            "name": "Independence Day",
+            "date": "2023-07-04",
+            "description": ""
+        },
+        {
+            "name": "Labor Day",
+            "date": "2023-09-04",
+            "description": ""
+        },
+        {
+            "name": "Thanksgiving Day",
+            "date": "2023-11-23",
+            "description": ""
+        },
+        {
+            "name": "The Day After Thanksgiving",
+            "date": "2023-11-24",
+            "description": ""
+        },
+        {
+            "name": "Christmas",
+            "date": "2023-12-25",
+            "description": ""
+        }
+    ]
+}
