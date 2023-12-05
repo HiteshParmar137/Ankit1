@@ -1,0 +1,677 @@
+{
+    "permissions": [
+        {
+            "display_name": "Add leave",
+            "name": "leave-add",
+            "description": "Add leave"
+        },
+        {
+            "display_name": "Edit leave",
+            "name": "leave-edit",
+            "description": "Edit leave"
+        },
+        {
+            "display_name": "Delete leave",
+            "name": "leave-delete",
+            "description": "Delete leave"
+        },
+        {
+            "display_name": "Leave list",
+            "name": "leave-list",
+            "description": "Leave list"
+        },
+        {
+            "display_name": "Team leave list",
+            "name": "team-leave-list",
+            "description": "Team leave leave"
+        },
+        {
+            "display_name": "Team leave view",
+            "name": "team-leave-view",
+            "description": "Team leave view"
+        },
+        {
+            "display_name": "All leave list",
+            "name": "all-leave-list",
+            "description": "all leave leave"
+        },
+        {
+            "display_name": "All leave add",
+            "name": "all-leave-add",
+            "description": "all leave add"
+        },
+        {
+            "display_name": "All leave edit",
+            "name": "all-leave-edit",
+            "description": "all leave edit"
+        },
+        {
+            "display_name": "All leave delete",
+            "name": "all-leave-delete",
+            "description": "all leave delete"
+        },
+        {
+            "display_name": "Leave debited",
+            "name": "leave-debited",
+            "description": "Leave debited"
+        },
+        {
+            "display_name": "WFH list",
+            "name": "wfh-list",
+            "description": "WFH list"
+        },
+        {
+            "display_name": "WFH add",
+            "name": "wfh-add",
+            "description": "WFH add"
+        },
+        {
+            "display_name": "WFH edit",
+            "name": "wfh-edit",
+            "description": "WFH edit"
+        },
+        {
+            "display_name": "WFH delete",
+            "name": "wfh-delete",
+            "description": "WFH detele"
+        },
+        {
+            "display_name": "Team WFH list",
+            "name": "team-wfh-list",
+            "description": "Team WFH list"
+        },
+        {
+            "display_name": "Team WFH view",
+            "name": "team-wfh-view",
+            "description": "Team WFH view"
+        },
+        {
+            "display_name": "Team WFH approve",
+            "name": "team-wfh-approve",
+            "description": "Team WFH approve"
+        },
+        {
+            "display_name": "Team WFH reject",
+            "name": "team-wfh-reject",
+            "description": "Team WFH reject"
+        },
+        {
+            "display_name": "All WFH list",
+            "name": "all-wfh-list",
+            "description": "All WFH list"
+        },
+        {
+            "display_name": "All WFH add",
+            "name": "all-wfh-add",
+            "description": "All WFH add"
+        },
+        {
+            "display_name": "All WFH edit",
+            "name": "all-wfh-edit",
+            "description": "All WFH edit"
+        },
+        {
+            "display_name": "All WFH delete",
+            "name": "all-wfh-delete",
+            "description": "All WFH delete"
+        },
+        {
+            "display_name": "Designation list",
+            "name": "designation-list",
+            "description": "Designation list"
+        },
+        {
+            "display_name": "Designation add",
+            "name": "designation-add",
+            "description": "Designation add"
+        },
+        {
+            "display_name": "Designation edit",
+            "name": "designation-edit",
+            "description": "Designation edit"
+        },
+        {
+            "display_name": "Designation delete",
+            "name": "designation-delete",
+            "description": "Designation delete"
+        },
+        {
+            "display_name": "Department list",
+            "name": "department-list",
+            "description": "Department list"
+        },
+        {
+            "display_name": "Department add",
+            "name": "department-add",
+            "description": "Department add"
+        },
+        {
+            "display_name": "Department edit",
+            "name": "department-edit",
+            "description": "Department edit"
+        },
+        {
+            "display_name": "Department delete",
+            "name": "department-delete",
+            "description": "Department delete"
+        },
+        {
+            "display_name": "Department list",
+            "name": "department-list",
+            "description": "Department list"
+        },
+        {
+            "display_name": "Department add",
+            "name": "department-add",
+            "description": "Department add"
+        },
+        {
+            "display_name": "Department edit",
+            "name": "department-edit",
+            "description": "Department edit"
+        },
+        {
+            "display_name": "Department delete",
+            "name": "department-delete",
+            "description": "Department delete"
+        },
+        {
+            "display_name": "Holiday list",
+            "name": "holiday-list",
+            "description": "Holiday list"
+        },
+        {
+            "display_name": "Holiday add",
+            "name": "holiday-add",
+            "description": "Holiday add"
+        },
+        {
+            "display_name": "Holiday edit",
+            "name": "holiday-edit",
+            "description": "Holiday edit"
+        },
+        {
+            "display_name": "Holiday delete",
+            "name": "holiday-delete",
+            "description": "Holiday delete"
+        },
+        {
+            "display_name": "JobOpening list",
+            "name": "jobOpening-list",
+            "description": "JobOpening list"
+        },
+        {
+            "display_name": "JobOpening add",
+            "name": "jobOpening-add",
+            "description": "JobOpening add"
+        },
+        {
+            "display_name": "JobOpening edit",
+            "name": "jobOpening-edit",
+            "description": "JobOpening edit"
+        },
+        {
+            "display_name": "JobOpening delete",
+            "name": "jobOpening-delete",
+            "description": "JobOpening delete"
+        },
+        {
+            "display_name": "Monthly Event list",
+            "name": "monthly-event-list",
+            "description": " MonthlyEvent list"
+        },
+        {
+            "display_name": "Monthly Event add",
+            "name": "monthly-event-add",
+            "description": " Monthly Event add"
+        },
+        {
+            "display_name": "Monthly Event edit",
+            "name": "monthly-event-edit",
+            "description": " MonthlyEvent edit"
+        },
+        {
+            "display_name": "Monthly Event delete",
+            "name": "monthly-event-delete",
+            "description": "Monthly Event delete"
+        },
+        {
+            "display_name": "policy list",
+            "name": "policy-list",
+            "description": "policy list"
+        },
+        {
+            "display_name": "policy add",
+            "name": "policy-add",
+            "description": "policy add"
+        },
+        {
+            "display_name": "policy edit",
+            "name": "policy-edit",
+            "description": "policy edit"
+        },
+        {
+            "display_name": "policy show",
+            "name": "policy-show",
+            "description": "policy show"
+        },
+        {
+            "display_name": "policy delete",
+            "name": "policy-delete",
+            "description": "policy delete"
+        },
+        {
+            "display_name": "Roles list",
+            "name": "role-list",
+            "description": "Roles list"
+        },
+        {
+            "display_name": "Roles add",
+            "name": "role-add",
+            "description": "Roles add"
+        },
+        {
+            "display_name": "Roles edit",
+            "name": "role-edit",
+            "description": "Roles edit"
+        },
+        {
+            "display_name": "Roles delete",
+            "name": "role-delete",
+            "description": "Roles delete"
+        },
+        {
+            "display_name": "Invite User list",
+            "name": "invite-user-list",
+            "description": "Invite User list"
+        },
+        {
+            "display_name": "Invite User add",
+            "name": "invite-user-add",
+            "description": "Invite User add"
+        },
+        {
+            "display_name": "Invite User edit",
+            "name": "invite-user-edit",
+            "description": "Invite User edit"
+        },
+        {
+            "display_name": "Invite User delete",
+            "name": "invite-user-delete",
+            "description": "Invite User delete"
+        },
+        {
+            "display_name": "Technology list",
+            "name": "technology-list",
+            "description": "Technology list"
+        },
+        {
+            "display_name": "Technology add",
+            "name": "technology-add",
+            "description": "Technology add"
+        },
+        {
+            "display_name": "Technology edit",
+            "name": "technology-edit",
+            "description": "Technology edit"
+        },
+        {
+            "display_name": "Technology delete",
+            "name": "technology-delete",
+            "description": "Technology delete"
+        },
+        {
+            "display_name": "Punch log list",
+            "name": "punch-log-list",
+            "description": "punch-log list"
+        },
+        {
+            "display_name": "Punch log add",
+            "name": "punch-log-add",
+            "description": "punch-log add"
+        },
+        {
+            "display_name": "Punch log edit",
+            "name": "punch-log-edit",
+            "description": "punch-log edit"
+        },
+        {
+            "display_name": "Punch log delete",
+            "name": "punch-log-delete",
+            "description": "punch-log delete"
+        },
+        {
+            "display_name": "Punch bulk upload",
+            "name": "punch-log-bulk-upload",
+            "description": "Punch bulk upload"
+        },
+        {
+            "display_name": "Client list",
+            "name": "client-list",
+            "description": "Client list"
+        },
+        {
+            "display_name": "Client add",
+            "name": "client-add",
+            "description": "Client add"
+        },
+        {
+            "display_name": "Client edit",
+            "name": "client-edit",
+            "description": "Client edit"
+        },
+        {
+            "display_name": "Client delete",
+            "name": "client-delete",
+            "description": "Client delete"
+        },
+        {
+            "display_name": "Client show",
+            "name": "client-show",
+            "description": "Client show"
+        },
+        {
+            "display_name": "Book list",
+            "name": "book-list",
+            "description": "Book list"
+        },
+        {
+            "display_name": "Book add",
+            "name": "book-add",
+            "description": "Book add"
+        },
+        {
+            "display_name": "Book edit",
+            "name": "book-edit",
+            "description": "Book edit"
+        },
+        {
+            "display_name": "Book delete",
+            "name": "book-delete",
+            "description": "Book delete"
+        },
+        {
+            "display_name": "Book Request To Read",
+            "name": "book-request-to-read",
+            "description": "Book Request To Read"
+        },
+        {
+            "display_name": "Book Request To Read Lists",
+            "name": "book-request-to-read-lists",
+            "description": "Book Request To Read Lists"
+        },
+        {
+            "display_name": "Book Request To Read Status",
+            "name": "book-request-to-read-status",
+            "description": "Book Request To Read Status"
+        },
+        {
+            "display_name": "New Book list",
+            "name": "new-book-list",
+            "description": "New Book list"
+        },
+        {
+            "display_name": "New Book add",
+            "name": "new-book-add",
+            "description": "New Book add"
+        },
+        {
+            "display_name": "New Book edit",
+            "name": "new-book-edit",
+            "description": "New Book edit"
+        },
+        {
+            "display_name": "New Book delete",
+            "name": "new-book-delete",
+            "description": "New Book delete"
+        },
+        {
+            "display_name": "Meeting list",
+            "name": "meeting-list",
+            "description": "Meeting list"
+        },
+        {
+            "display_name": "Meeting add",
+            "name": "meeting-add",
+            "description": "Meeting add"
+        },
+        {
+            "display_name": "Meeting edit",
+            "name": "meeting-edit",
+            "description": "Meeting edit"
+        },
+        {
+            "display_name": "Meeting delete",
+            "name": "meeting-delete",
+            "description": "Meeting delete"
+        },
+        {
+            "display_name": "Meeting show",
+            "name": "meeting-show",
+            "description": "Meeting show"
+        },
+        {
+            "display_name": "Resource list",
+            "name": "resource-list",
+            "description": "Resource list"
+        },
+        {
+            "display_name": "Resource add",
+            "name": "resource-add",
+            "description": "Resource add"
+        },
+        {
+            "display_name": "Resource edit",
+            "name": "resource-edit",
+            "description": "Resource edit"
+        },
+        {
+            "display_name": "Resource delete",
+            "name": "resource-delete",
+            "description": "Resource delete"
+        },
+        {
+            "display_name": "Resource show",
+            "name": "resource-show",
+            "description": "Resource show"
+        },
+        {
+            "display_name": "Resource Requested List",
+            "name": "resource-requested-list",
+            "description": "Resource Requested List"
+        },
+        {
+            "display_name": "Resource Requested Feedback",
+            "name": "resource-requested-feedback",
+            "description": "Resource Requested Feedback"
+        },
+        {
+            "display_name": "Project list",
+            "name": "project-list",
+            "description": "Project list"
+        },
+        {
+            "display_name": "Project add",
+            "name": "project-add",
+            "description": "Project add"
+        },
+        {
+            "display_name": "Project edit",
+            "name": "project-edit",
+            "description": "Project edit"
+        },
+        {
+            "display_name": "Project delete",
+            "name": "project-delete",
+            "description": "Project delete"
+        },
+        {
+            "display_name": "Project Assing list",
+            "name": "project-assing-list",
+            "description": "Project Assing list"
+        },
+        {
+            "display_name": "Project Assing add",
+            "name": "project-assing-add",
+            "description": "Project Assing add"
+        },
+        {
+            "display_name": "Project Assing edit",
+            "name": "project-assing-edit",
+            "description": "Project Assing edit"
+        },
+        {
+            "display_name": "Project Assing delete",
+            "name": "project-assing-delete",
+            "description": "Project Assing delete"
+        },
+        {
+            "display_name": "Project Task list",
+            "name": "project-task-list",
+            "description": "Project Task list"
+        },
+        {
+            "display_name": "Project Task add",
+            "name": "project-task-add",
+            "description": "Project Task add"
+        },
+        {
+            "display_name": "Project Task edit",
+            "name": "project-task-edit",
+            "description": "Project Task edit"
+        },
+        {
+            "display_name": "Project Task delete",
+            "name": "project-task-delete",
+            "description": "Project Task delete"
+        }
+    ],
+    "roles": [
+        {
+            "name": "Super Admin",
+            "slug": "super-admin",
+            "permissions": []
+        },
+        {
+            "name": "Human Resource Executive",
+            "slug": "human-resource-executive",
+            "permissions": [
+                "leave-add",
+                "leave-edit",
+                "leave-delete",
+                "leave-list",
+                "team-leave-list",
+                "team-leave-view",
+                "wfh-list",
+                "wfh-add",
+                "wfh-edit",
+                "wfh-delete",
+                "team-wfh-list",
+                "team-wfh-view",
+                "all-wfh-list",
+                "all-wfh-add",
+                "all-wfh-edit",
+                "all-wfh-delete",
+                "designation-list",
+                "designation-add",
+                "designation-edit",
+                "designation-delete",
+                "department-list",
+                "department-add",
+                "department-edit",
+                "department-delete",
+                "holiday-list",
+                "holiday-add",
+                "holiday-edit",
+                "holiday-delete",
+                "jobOpening-list",
+                "jobOpening-add",
+                "jobOpening-edit",
+                "jobOpening-delete",
+                "monthly-event-list",
+                "monthly-event-add",
+                "monthly-event-edit",
+                "monthly-event-delete",
+                "all-leave-list",
+                "all-leave-add",
+                "all-leave-edit",
+                "all-leave-delete",
+                "policy-list",
+                "policy-add",
+                "policy-edit",
+                "policy-show",
+                "policy-delete",
+                "role-list",
+                "role-add",
+                "role-edit",
+                "role-delete",
+                "invite-user-list",
+                "invite-user-add",
+                "invite-user-edit",
+                "invite-user-delete",
+                "technology-list",
+                "technology-add",
+                "technology-edit",
+                "technology-delete",
+                "punch-log-list",
+                "punch-log-add",
+                "punch-log-edit",
+                "punch-log-delete",
+                "punch-log-bulk-upload",
+                "book-list",
+                "book-add",
+                "book-edit",
+                "book-delete",
+                "book-request-to-read",
+                "book-request-to-read-lists",
+                "book-request-to-read-status",
+                "new-book-list",
+                "new-book-add",
+                "new-book-edit",
+                "new-book-delete",
+                "meeting-list",
+                "meeting-add",
+                "meeting-edit",
+                "meeting-delete",
+                "meeting-show",
+                "resource-list",
+                "resource-add",
+                "resource-edit",
+                "resource-delete",
+                "resource-requested-list",
+                "resource-requested-feedback"
+            ]
+        },
+        {
+            "name": "Employee",
+            "slug": "employee",
+            "permissions": [
+                "leave-add",
+                "leave-edit",
+                "leave-delete",
+                "leave-list",
+                "team-leave-list",
+                "team-leave-view",
+                "wfh-list",
+                "wfh-add",
+                "wfh-edit",
+                "wfh-delete",
+                "team-wfh-list",
+                "team-wfh-view",
+                "punch-log-list",
+                "book-list",
+                "book-request-to-read",
+                "new-book-list",
+                "new-book-add",
+                "new-book-edit",
+                "new-book-delete",
+                "resource-list",
+                "resource-add",
+                "resource-edit",
+                "resource-delete",
+                "resource-requested-list",
+                "resource-requested-feedback"
+            ]
+        }
+    ]
+}
